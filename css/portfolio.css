@@ -1,81 +1,78 @@
+/* ===== body =======*/
+
+.body {
+  font-family: 'Roboto';
+}
+
 /* ===== header =======*/
 
 .header {
   background-color: white;
-  font-family: 'Roboto';
 }
 
 .header .logo {
   font-family: 'Raleway:700';
+  font-size: 26px;
+  font-weight: 700;
   color: var(--web);
 }
 
 .header .logo > span {
   font-family: 'Oleo+Script:400';
+  font-size: 26px;
+  font-weight: 700;
   color: black;
 }
 
-.header .nav li {
+.header .nav a {
+  font-size: 14px;
   font-weight: 500;
   color: var(--menuNav);
 }
 
 .header .contacts a {
+  font-size: 14px;
   font-weight: 500;
   color: var(--email-tel);
 }
 
-.current {
+.header .nav .current {
   color: var(--email-hover);
 }
 
-.header .nav .studia-email:hover,
-.header .contacts .studia-email:hover,
-.header .contacts .studia-email:focus {
+.header .nav a:hover,
+.header .contacts .email:hover {
   color: var(--email-hover);
 }
 
 /* =======  MAIN  ========*/
 
-.sectiion {
-  font-family: 'Roboto';
-}
-
 /* =======  filters ======*/
 
-.sectiion .filters {
+.section .filters button {
+  border-radius: 4px;
   background-color: var(--back-gray);
-  color: var(--menuNav);
   font-weight: 500;
+  font-size: 16px;
+  color: var(--menuNav);
 }
 
-.sectiion .filters .curreent {
+.section .filters button:hover {
   background-color: var(--email-hover);
   color: white;
 }
 
-.sectiion .filters:hover,
-.sectiion .filters:focus {
-  color: var(--email-hover);
-}
-
-.sectiion .filters h3 {
-  font-weight: 700;
-}
-
-.sectiion .filters p {
-  font-weight: 400;
-}
-
 /* =======  images ========*/
 
-.sectiion .images h3 {
+.section .images h3 {
   font-weight: 700;
+  font-size: 18px;
   color: var(--menuNav);
 }
 
-.sectiion .images p {
+.section .images p {
   font-weight: 400;
+  font-size: 16px;
   color: var(--email-tel);
 }
 
@@ -86,22 +83,26 @@
 }
 
 .footer .address {
-  font-family: 'Roboto:400';
+  font-weight: 400;
+  font-size: 14px;
   font-style: normal;
   color: white;
 }
 
 .footer .logo {
   font-family: 'Raleway:700';
+  font-weight: 700;
+  font-size: 26px;
   color: var(--web);
 }
 
 .footer .logo > span {
   font-family: 'Oleo+Script:400';
+  font-weight: 700;
+  font-size: 26px;
   color: white;
 }
 
 .footer .contacts > li > a {
-  font-style: normal;
   color: var(--email-tel-footer);
 }
