@@ -14,6 +14,7 @@
   font-family: 'Raleway:700';
   font-size: 26px;
   font-weight: 700;
+  font-style: normal;
   color: var(--web);
 }
 
@@ -21,6 +22,7 @@
   font-family: 'Oleo+Script:400';
   font-size: 26px;
   font-weight: 700;
+  font-style: normal;
   color: black;
 }
 
